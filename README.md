@@ -13,8 +13,8 @@ This is a Next.js app that allows users to buy the owner of the app a cup of cof
 Prerequisites
 To get started, you'll need to have the following installed on your system:
 
-Node.js 
-Git 
+- Node.js 
+- Git 
 
 ### Installing
 
