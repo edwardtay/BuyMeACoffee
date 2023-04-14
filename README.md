@@ -1,42 +1,41 @@
 # Project Title
 
-Simple overview of use/purpose. 
-// purpose of index.jsx 
+BuyMeACoffee
+
+Smart contract on Goerli - https://goerli.etherscan.io/address/0xEe0Ed278E3caB0A8dF5cFe174fCfB30341C797aB#code
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This is a Next.js app that allows users to buy the owner of the app a cup of coffee using ETH along with a message. The message is stored on the blockchain as a memo and can be retrieved later. withdrawTips allows the contract owner to withdraw all the funds stored in the contract. This function requires that the caller is the contract owner and sends the entire balance of the contract to the owner's address.
 
 ## Getting Started
 
+Prerequisites
+To get started, you'll need to have the following installed on your system:
+
+Node.js 
+Git 
+
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+First, clone this repository using Git:
 
-### Executing program
+git clone https://github.com/yourusername/buymeacoffee.git
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+Next, navigate to the project directory and install the dependencies:
 
-## Help
+cd buymeacoffee
+npm install
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Running the app
+To start the app, run:
 
-## Authors
+npm run dev
 
-Contributors names and contact info
+## Credits
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
+[Alchemy]([https://twitter.com/dompizzie](https://docs.alchemy.com/docs/how-to-build-buy-me-a-coffee-defi-dapp))
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This contract is licensed under the MIT License.
